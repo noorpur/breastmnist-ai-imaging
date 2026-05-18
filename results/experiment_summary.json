@@ -1,0 +1,82 @@
+{
+  "analysis_report": "/content/drive/MyDrive/repo_polished/analysis/experiment_report.md",
+  "best_model_by_mean_auc": "enhanced_cnn",
+  "best_operating_threshold": 0.31,
+  "best_seed_for_visuals": 13,
+  "config": {
+    "batch_size": 64,
+    "bootstrap_iterations": 1000,
+    "dataset_name": "breastmnist",
+    "device": "auto",
+    "epochs": 200,
+    "image_size": 28,
+    "learning_rate": 0.001,
+    "min_delta": 0.0001,
+    "num_workers": 0,
+    "patience": 30,
+    "project_root": "/content/drive/MyDrive/repo_polished",
+    "seed": 42,
+    "seeds": [
+      13,
+      42,
+      101
+    ],
+    "sensitivity_floor": 0.9,
+    "threshold": 0.5,
+    "use_class_weights": true,
+    "weight_decay": 0.0001
+  },
+  "dataset_summary": {
+    "class_names": [
+      "non_malignant",
+      "malignant"
+    ],
+    "dataset_sizes": {
+      "test": 156,
+      "train": 546,
+      "val": 78
+    },
+    "label_distribution": {
+      "test": {
+        "malignant": 114,
+        "non_malignant": 42
+      },
+      "train": {
+        "malignant": 399,
+        "non_malignant": 147
+      },
+      "val": {
+        "malignant": 57,
+        "non_malignant": 21
+      }
+    }
+  },
+  "device": "cpu",
+  "figures": [
+    "/content/drive/MyDrive/repo_polished/figures/dataset_examples.png",
+    "/content/drive/MyDrive/repo_polished/figures/training_curves_tiny_cnn_seed13.png",
+    "/content/drive/MyDrive/repo_polished/figures/training_curves_enhanced_cnn_seed13.png",
+    "/content/drive/MyDrive/repo_polished/figures/training_curves_residual_cnn_seed13.png",
+    "/content/drive/MyDrive/repo_polished/figures/training_curves_tiny_cnn_seed42.png",
+    "/content/drive/MyDrive/repo_polished/figures/training_curves_enhanced_cnn_seed42.png",
+    "/content/drive/MyDrive/repo_polished/figures/training_curves_residual_cnn_seed42.png",
+    "/content/drive/MyDrive/repo_polished/figures/training_curves_tiny_cnn_seed101.png",
+    "/content/drive/MyDrive/repo_polished/figures/training_curves_enhanced_cnn_seed101.png",
+    "/content/drive/MyDrive/repo_polished/figures/training_curves_residual_cnn_seed101.png",
+    "/content/drive/MyDrive/repo_polished/figures/experiment_metric_table.png",
+    "/content/drive/MyDrive/repo_polished/figures/repeated_metric_summary.png",
+    "/content/drive/MyDrive/repo_polished/figures/threshold_sweep_best.png",
+    "/content/drive/MyDrive/repo_polished/figures/confusion_matrix_best.png",
+    "/content/drive/MyDrive/repo_polished/figures/roc_curve_best.png",
+    "/content/drive/MyDrive/repo_polished/figures/precision_recall_curve_best.png",
+    "/content/drive/MyDrive/repo_polished/figures/calibration_curve_best.png",
+    "/content/drive/MyDrive/repo_polished/figures/risk_score_histogram_best.png",
+    "/content/drive/MyDrive/repo_polished/figures/error_gallery_best.png",
+    "/content/drive/MyDrive/repo_polished/figures/gradcam_panel_best_cnn.png"
+  ],
+  "metrics_path": "/content/drive/MyDrive/repo_polished/results/metrics_by_run.csv",
+  "metrics_summary_path": "/content/drive/MyDrive/repo_polished/results/metrics_summary_by_model.csv",
+  "predictions_path": "/content/drive/MyDrive/repo_polished/results/predictions_test.csv",
+  "threshold_sweep_path": "/content/drive/MyDrive/repo_polished/results/threshold_sweep_best.csv",
+  "validation_predictions_path": "/content/drive/MyDrive/repo_polished/results/predictions_validation.csv"
+}

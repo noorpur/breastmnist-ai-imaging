@@ -1,0 +1,23 @@
+{
+  "batch_size": 64,
+  "bootstrap_iterations": 1000,
+  "dataset_name": "breastmnist",
+  "device": "auto",
+  "epochs": 200,
+  "image_size": 28,
+  "learning_rate": 0.001,
+  "min_delta": 0.0001,
+  "num_workers": 0,
+  "patience": 30,
+  "project_root": "/content/drive/MyDrive/repo_polished",
+  "seed": 42,
+  "seeds": [
+    13,
+    42,
+    101
+  ],
+  "sensitivity_floor": 0.9,
+  "threshold": 0.5,
+  "use_class_weights": true,
+  "weight_decay": 0.0001
+}

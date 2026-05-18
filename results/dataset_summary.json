@@ -1,0 +1,25 @@
+{
+  "class_names": [
+    "non_malignant",
+    "malignant"
+  ],
+  "dataset_sizes": {
+    "test": 156,
+    "train": 546,
+    "val": 78
+  },
+  "label_distribution": {
+    "test": {
+      "malignant": 114,
+      "non_malignant": 42
+    },
+    "train": {
+      "malignant": 399,
+      "non_malignant": 147
+    },
+    "val": {
+      "malignant": 57,
+      "non_malignant": 21
+    }
+  }
+}

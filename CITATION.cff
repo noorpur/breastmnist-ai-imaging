@@ -1,0 +1,63 @@
+cff-version: 1.2.0
+title: "AI for Women's Health Imaging: Breast Ultrasound Malignancy Classification"
+message: "If this repository is useful, cite the repository and the underlying datasets/papers."
+type: software
+authors:
+  - family-names: Zahra
+    given-names: Noor Ul Ain
+repository-code: "https://github.com/znoorulain13/ai-womens-health-imaging-breastmnist"
+license: MIT
+version: 2.0.0
+date-released: 2026-05-18
+references:
+  - type: article
+    title: "MedMNIST v2-A large-scale lightweight benchmark for 2D and 3D biomedical image classification"
+    authors:
+      - family-names: Yang
+        given-names: Jiancheng
+      - family-names: Shi
+        given-names: Rui
+      - family-names: Wei
+        given-names: Donglai
+      - family-names: Liu
+        given-names: Zequan
+      - family-names: Zhao
+        given-names: Lin
+      - family-names: Ke
+        given-names: Bilian
+      - family-names: Pfister
+        given-names: Hanspeter
+      - family-names: Ni
+        given-names: Bingbing
+    journal: Scientific Data
+    year: 2023
+    volume: 10
+    issue: 1
+    doi: 10.1038/s41597-022-01721-8
+  - type: conference-paper
+    title: "MedMNIST Classification Decathlon: A Lightweight AutoML Benchmark for Medical Image Analysis"
+    authors:
+      - family-names: Yang
+        given-names: Jiancheng
+      - family-names: Shi
+        given-names: Rui
+      - family-names: Ni
+        given-names: Bingbing
+    conference: "IEEE 18th International Symposium on Biomedical Imaging"
+    year: 2021
+    doi: 10.1109/ISBI48211.2021.9434062
+  - type: article
+    title: "Dataset of breast ultrasound images"
+    authors:
+      - family-names: Al-Dhabyani
+        given-names: Walid
+      - family-names: Gomaa
+        given-names: Mohammed
+      - family-names: Khaled
+        given-names: Hussien
+      - family-names: Fahmy
+        given-names: Aly
+    journal: Data in Brief
+    year: 2020
+    volume: 28
+    doi: 10.1016/j.dib.2019.104863
