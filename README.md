@@ -19,7 +19,7 @@ Can lightweight machine learning and convolutional neural network models provide
 ```text
 .
 ├── notebooks/
-│   └── BreastMNIST_Womens_Health_AI_Imaging_Research.ipynb
+│   └── BreastMNIST_AI_Imaging_Research.ipynb
 ├── src/breast_ai/
 │   ├── config.py
 │   ├── data.py
