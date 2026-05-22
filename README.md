@@ -1,4 +1,4 @@
-# AI for Women's Health Imaging: Breast Ultrasound Malignancy Classification
+# AI for Women's Breast Ultrasound Malignancy Classification
 
 This repository contains a Colab-first research workflow for evaluating AI models on **BreastMNIST**, a standardized breast ultrasound imaging benchmark from MedMNIST v2. The project is structured like a reproducible research repo rather than a one-off notebook: configuration, reusable modules, repeated experiments, metrics, figures, model checkpoints, predictions, threshold sweeps, and generated experiment analysis all write to versioned folders.
 
